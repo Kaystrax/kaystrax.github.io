@@ -19,7 +19,7 @@ p, li {
   letter-spacing: 1px;
 }
 
-body {
+.main {
   width: 600px;
   margin: 20px auto;
   background-color: #ff9500;
@@ -38,6 +38,8 @@ img {
 .firefoximage {
   text-align: center;
   font-size: 30px;
+  color: #00539f;
+  text-shadow: 1px 1px 5px black;
 }
 
 .btn1 {
@@ -74,13 +76,17 @@ img {
   right: 0;
 }
 
+.socialmedia {
+  font-size: 20px;
+}
+
 .fa {
   padding: 20px;
-  width: 50px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  font-size: 30px;
+  border-radius: 100%;
 }
 
 .fa:hover {
